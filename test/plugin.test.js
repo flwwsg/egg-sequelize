@@ -56,7 +56,7 @@ describe('test/plugin.test.js', () => {
       assert(config.define.freezeTableName === false);
       assert(config.port === '3306');
       assert(config.username === 'root');
-      assert(config.password === '');
+      assert(config.password === '123456');
       assert(config.logging !== false);
       assert(config.benchmark === true);
     });

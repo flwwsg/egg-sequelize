@@ -4,7 +4,7 @@ exports.sequelize = {
   port: '3306',
   host: '127.0.0.1',
   username: 'root',
-  password: '',
+  password: '123456',
   database: 'test',
   dialect: 'mysql',
   pool: {
