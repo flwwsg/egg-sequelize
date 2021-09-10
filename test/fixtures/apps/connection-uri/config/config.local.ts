@@ -7,9 +7,11 @@ export default (appInfo: EggAppInfo) => {
   config.keys = '123123';
 
   config.sequelize = {
-    connectionUri: 'mysql://root:123456@127.0.0.1:3306/test4',
-    dialect: 'mysql'
-  }
+    client: {
+      connectionUri: 'mysql://root:123456@dev.wdj:3306/test4',
+      dialect: 'mysql',
+    },
+  };
 
   return config;
 }
