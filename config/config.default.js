@@ -3,10 +3,10 @@
 exports.sequelize = {
   dialect: 'mysql',
   database: '',
-  host: 'localhost',
+  host: 'dev.wdj',
   port: 3306,
   username: 'root',
-  password: '',
+  password: '123456',
 
   // support customize your own Squelize
   // Sequelize: require('sequelize'), // v5 or v3
