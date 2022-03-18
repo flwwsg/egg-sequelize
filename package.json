@@ -1,6 +1,6 @@
 {
   "name": "@ht/egg-sequelize",
-  "version": "6.0.3",
+  "version": "6.0.4",
   "description": "egg Sequelize plugin",
   "eggPlugin": {
     "name": "sequelize"
@@ -13,17 +13,17 @@
     "orm"
   ],
   "dependencies": {
-    "@types/sequelize": "^4.28.10",
+    "@types/sequelize": "^4.28.11",
     "mz-modules": "^2.1.0",
-    "sequelize": "^6.9.0"
+    "sequelize": "^6.17.0"
   },
   "devDependencies": {
     "autod": "^3.1.2",
-    "egg": "^2.32.0",
-    "egg-bin": "^4.16.4",
-    "egg-mock": "^3.26.0",
-    "eslint": "^8.2.0",
-    "eslint-config-egg": "^9.0.0",
+    "egg": "^2.34.0",
+    "egg-bin": "^4.18.1",
+    "egg-mock": "^4.2.0",
+    "eslint": "^8.11.0",
+    "eslint-config-egg": "^11.0.1",
     "mysql2": "^2.3.0"
   },
   "engines": {
